@@ -1,0 +1,17 @@
+{
+    "extends": [
+        "html-validate:recommended"
+    ],
+    "rules": {
+        "no-inline-style": "off",
+        "void-style": [
+            "off",
+            {
+                "style": "selfclose"
+            }
+        ],
+        "no-self-closing": "off",
+        "no-trailing-whitespace": "off",
+        "whitespace": "off"
+    }
+}
